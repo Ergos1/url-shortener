@@ -5,6 +5,7 @@ import "context"
 type UrlRepository interface {
 	Create(ctx context.Context, url Url) (int64, error)
 	GetByOriginalUrl(ctx context.Context, originalUrl string) (*UrlRow, error)
+	GetByShortUrl(ctx context.Context, shortUrl string) (*UrlRow, error)
 }
 
 type UrlShortenerService struct {

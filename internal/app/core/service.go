@@ -1,8 +1,10 @@
 package core
 
+import "context"
+
 type UrlShortenerService interface {
-	CreateOrGetShortUrl(url string) (string, error)
-	GetOriginalUrl(shortUrl string) (string, error)
+	CreateOrGetShortUrl(ctx context.Context, url string) (string, error)
+	GetOriginalUrl(ctx context.Context, shortUrl string) (string, error)
 }
 
 type Service struct {

@@ -19,8 +19,9 @@ In this project, we aim to create a URL shortener service that allows users to s
 
 ## Features
 
-- [ ] Shorten long URLs into shorter, more compact links
-- [ ] Redirect users to the original URL when they visit the shortened link
+- [x] Shorten long URLs into shorter, more compact links
+- [x] Redirect users to the original URL when they visit the shortened link
+- [ ] Add bloom filter to optimize hash collision checking 
 - [ ] Adding rate limiter based on IP addresses
 - [ ] Web server scaling
 - [ ] Track link clicks and provide analytics

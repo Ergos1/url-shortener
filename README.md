@@ -15,7 +15,7 @@ A URL shortener project built with golang.
 
 ## Introduction
 
-In this project, we aim to create a URL shortener service that allows users to shorten long URLs into shorter, more manageable links. This can be useful for sharing links on social media, reducing the character count in messages, or tracking link clicks.
+In this project, I aim to create a URL shortener service that allows users to shorten long URLs into shorter, more manageable links. This can be useful for sharing links on social media, reducing the character count in messages, or tracking link clicks.
 
 ## Features
 
